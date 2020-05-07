@@ -1,0 +1,14 @@
+---
+    molecules_sdf: 'molecules2.sdf'
+    properties: 
+        - 'CB1_pKi'
+        - 'CB2_pKi'
+        - 'CB_dpKi'
+    db_links:
+        'CB1_pKi': 'https://www.ebi.ac.uk/chembl/compound_report_card/%s/'
+        'CB2_pKi': 'https://www.ebi.ac.uk/chembl/compound_report_card/%s/'
+        'CB_dpKi': 'https://www.ebi.ac.uk/chembl/compound_report_card/%s/'
+    db_id_props:
+        'CB1_pKi': 'ChEMBL_ID'
+        'CB2_pKi': 'ChEMBL_ID'
+        'CB_dpKi': 'ChEMBL_ID'
